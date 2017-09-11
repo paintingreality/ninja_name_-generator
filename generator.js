@@ -78,7 +78,7 @@
    var num = "Lucky Number: " + numbers[randomNumber5];
 
 
-   //If there is already a name it will be removed.
+   //If there is already a name it will be removed..
    if(document.getElementById("result")){
      document.getElementById("placeholder").removeChild(document.getElementById("result"));
    }
@@ -94,7 +94,7 @@
      document.getElementById("placeholder4").removeChild(document.getElementById("result"));
    }
 
-   
+
    //div will be created with randomly generated name
    var element = document.createElement("div");
    //name is added as textnode which is added to a placeholder.
